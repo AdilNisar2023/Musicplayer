@@ -1,0 +1,177 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+    
+}
+ul {
+    display: flex;
+gap: 20px;
+height: 40px;
+
+}
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+
+  .bg img{
+    height: 100%;
+    width: 100%;
+  }
+    body{
+        background: #78e2ea;
+    }
+   
+
+.header h1{
+    color:rgb(0, 0, 0);
+    opacity:1;
+    position: relative;
+    font-weight: bolder;
+   
+    }
+
+h1:hover{
+    color:rgb(197, 9, 9);
+}
+.header{
+    height:100px;
+    display: flex;
+justify-content: center;
+align-items: center;
+opacity: 1;
+
+}
+
+/* .buttons{
+    height:400px;
+    width:100%;
+   display: flex;
+   justify-content: center;
+   gap: 4rem;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.musicButton{
+ padding: 100px 150px;  
+border: 4px solid rgb(44, 36, 36);
+border-radius: 10px;
+cursor: pointer;
+font-size: 40px;
+color: rgb(10, 10, 9);
+font-family: 'Times New Roman', Times, serif;
+}
+.w{
+    background-image: url('./images/urumi_malayalam_movie_wallpapers_02.jpg');
+    background-size: cover;
+  
+}
+.a{
+    background-image: url('./images/charlie.jpg');
+    background-size: cover;
+}
+.s{
+    background-image: url('./images/neelathamara.jpg');
+    background-size: cover;
+}
+.d{
+    background-image: url('./images/mozhikalil.jpg');
+    background-size: cover;
+}
+.j{
+    background-image: url('./images/charlie.jpg');
+    background-size: cover;
+    
+}
+.k{
+    background-image: url('./images/neram.jpg');
+    background-size: cover;
+}
+
+.btn{
+    transition: transform .2s;
+    background-size: cover;
+    position: relative;
+}
+.btn:hover {
+    transform: scale(1.2);
+   opacity: .4;
+}
+
+  
+  .container {
+    padding: 2px 16px;
+   
+  }
+  
+
+
+*/
+  /* .elements{
+    position:absolute;
+    margin: 0;
+    top: 50%; right: 40%;
+    transform: translate(50%,-50%);
+  }
+  .elements1{
+    z-index: 2;
+    position:absolute;
+    margin: 0;
+    top: 50%; right: 55%;
+    transform: translate(50%,-50%);
+  } */
+  
+  .cards{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .card-items img{
+    width:300px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px 6px#060606;
+  }
+  .card-items {
+    position: relative;
+    
+  }
+  .one{
+    position:absolute;
+    margin: 0;
+    top: 50%; right: 55%;
+    transform: translate(50%,-50%);
+    z-index:4;
+    display: flex;
+    gap:1rem;
+
+
+  }
+  .card-items img:hover {
+    
+    opacity:.5 ;
+  }
+  .mySlides {
+    display:none;
+}
